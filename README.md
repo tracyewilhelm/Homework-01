@@ -25,4 +25,4 @@ The following are links to the 1. github repo and 2. live website
 
 1. https://github.com/tracyewilhelm/Homework-01
 
-2.
+2. https://tracyewilhelm.github.io/Homework-01/
