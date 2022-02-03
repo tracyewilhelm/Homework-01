@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/*this changes the background color of the website*/
 body {
     background-color: #d9dcd6;
 }
 
+/* the container that holds the header style */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,18 @@ header {
     color: #ffffff;
 }
 
+/* adjusts the font and display size of the header */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes the color of the "SEO" in the Horiseon header  */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Adjusts the size style of the nav bar within the header */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,20 +37,29 @@ header nav {
     font-size: 20px;
 }
 
+/* removes the bullets for this list style */
+header nav ul{
+    list-style-type: none;
+}
+
+/* puts the nav links iin a row */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* keeps the nav links white */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* adjusts size of all paragraph text */
 p {
     font-size: 16px;
 }
 
+/* background picture and its requirements */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,6 +69,7 @@ p {
     background-position: center;
 }
 
+/* styles the containers for the main section content */
 main section {
     margin-bottom: 20px;
     padding: 50px;
@@ -64,33 +79,38 @@ main section {
     color: #ffffff;
 }
 
+/* adjusts the max height of images in main */
 main img {
         max-height: 200px;
 }
 
+/* describes the h2 properties */
 main h2 {
         margin-bottom: 20px;
         font-size: 36px;
 }
 
-
+/* floats the class to the left of the parent container */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* floats the class to the right of the parent container */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-aside {
+/* describes layout properties of the main content section */
+.content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 } 
 
-.benefit {
+/* describes the layout for the aside content */
+.benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -99,15 +119,22 @@ aside {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* adjusts the layout spacing between text in the aside */
+.benefit{
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+/* adjusts the layout spacing between headers in the aside */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* adjusts the layout for the images in the aside */
 .benefit img {
     display: block;
     margin: 10px auto;
@@ -115,15 +142,16 @@ aside {
     max-width: 150px;
 }
 
-
-
-.footer {
+/* adjusts the layout and visibility of the footer */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    visibility: hidden;
 }
 
-.footer h4 {
+/* adjusts the text size of the footer */
+footer h4 {
     font-size: 20px;
 }
